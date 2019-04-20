@@ -1,0 +1,53 @@
+body {
+    padding: 5px;
+    background-color: #efeee7
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 2px;
+}
+
+/*
+=============================================
+Bio Info Layout
+=============================================
+*/
+.bio {
+    width: 50%;
+    margin-left: 1%;
+    text-align: justify;
+    float: left;
+}
+.bio img {
+    float: left;
+    margin-right: 1%;
+}
+
+/*
+=============================================
+Contact Info Layout
+=============================================
+*/
+.contact {
+    display: inline-block;
+    width: 40%; 
+}
+.contact ul {
+    font-size: 18px;
+    margin-left: 1%;
+}
+.contact a:link{
+    text-decoration: none;
+    color: red;
+}
+.contact a:visited{
+    text-decoration: none;
+    color: red;
+}
+.contact a:hover{
+    text-decoration: none;
+    color: blue;
+}
