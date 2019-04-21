@@ -9,6 +9,10 @@ header {
     color: white;
     padding: 2px;
 }
+.container {
+    width: 1024px;
+    margin: 0 auto;
+  }
 
 /*
 =============================================
@@ -16,7 +20,7 @@ Bio Info Layout
 =============================================
 */
 .bio {
-    width: 50%;
+    width: 60%;
     margin-left: 1%;
     text-align: justify;
     float: left;
@@ -33,7 +37,7 @@ Contact Info Layout
 */
 .contact {
     display: inline-block;
-    width: 40%; 
+    width: 30%; 
 }
 .contact ul {
     font-size: 18px;
